@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-BASE_MODEL = "google/flan-t5-small"
+BASE_MODEL = "google/flan-t5-small" # fast and good for Q&A
 # Other options:
 # MODEL = "meta-llama/Llama-2-7b-chat-hf"
 # MODEL = "openlm-research/open_llama_3b"
