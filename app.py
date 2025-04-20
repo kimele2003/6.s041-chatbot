@@ -60,7 +60,8 @@ def create_chatbot():
                 - Return that response as a string
         """
         # TODO: Generate and return response
-        pass
+        # response = chatbot.() // depends on SchoolChatbot features
+        # return response
 
     
     
