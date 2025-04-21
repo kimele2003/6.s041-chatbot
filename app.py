@@ -62,8 +62,9 @@ def create_chatbot():
         # TODO: Generate and return response
         # response = chatbot.() // depends on SchoolChatbot features
         # return response
+        response = chatbot.get_response(message)
+        return response
 
-    
     
     # Create Gradio interface. Customize the interface however you'd like!
     demo = gr.ChatInterface(
