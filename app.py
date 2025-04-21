@@ -19,7 +19,7 @@ Example Usage:
 """
 
 import gradio as gr
-from src.chat import SchoolChatbot
+from src.rag_chat import SchoolChatbot
 
 def create_chatbot():
     """
